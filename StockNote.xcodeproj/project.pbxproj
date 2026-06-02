@@ -3,159 +3,186 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7000001 /* StockNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100001; };
-		F7000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100002; };
-		F7000003 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100003; };
-		F7000004 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100004; };
-		F7000005 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100005; };
-		F7000006 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100006; };
-		F7000007 /* EastMoneyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100007; };
-		F7000008 /* PriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100008; };
-		F7000009 /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100009; };
-		F700000A /* StockRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000A; };
-		F700000B /* AddStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000B; };
-		F700000C /* TagManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000C; };
-		F700000D /* StrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000D; };
-		F700000E /* AddStrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000E; };
-		F700000F /* AddDealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710000F; };
-		F7000010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100010; };
-		F7000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7100011; };
+		0169FDA6A157BBB837F898F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BD0D51C1A05F4B1EF5C30 /* ContentView.swift */; };
+		135CAD6E96745D5E76C7CA88 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DB88CAC7D8C3414FF26D8 /* Strategy.swift */; };
+		25C04DE8C063A9D7FA310AEE /* TagManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC20DD5CFFB70D81F68ADC9B /* TagManagerView.swift */; };
+		2D1C3537DC3255E41F8707D2 /* PriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D87245249E437F84FC218 /* PriceService.swift */; };
+		40645E2CED04379AB9D517B9 /* AddStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49C49B9E5B5ABDE3935F86D /* AddStockView.swift */; };
+		6DA71095821982B80734C93C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB550B1A1CB4B04CC752A43 /* SettingsView.swift */; };
+		9A0C7BF89D0413E738A685C4 /* EastMoneyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479ADCB8E48D0C49A514B8CA /* EastMoneyAPI.swift */; };
+		9A1E134C91763BB779771381 /* AddStrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D5E01BD076D6DFDC8DDE2 /* AddStrategyView.swift */; };
+		A498D7EA558BBEBE71251D1F /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6596C5CDBBDA9FC268EC8 /* WatchlistView.swift */; };
+		C0A3B1CC745DB827B012059E /* StockNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743DC2359F6EB4A497922CB3 /* StockNoteApp.swift */; };
+		C27F355E40069EA626E7836A /* AddDealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F735CA7E84C8C27200B /* AddDealView.swift */; };
+		C9AA224DCD5D6DDF072E0BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CEDF4B346F58E1A834A44A /* Assets.xcassets */; };
+		CEF86756D7A7561B8D3C56F7 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3346EA4E923029B1C38E66 /* Deal.swift */; };
+		E91B37249145D21AD2ECEF60 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B73D77E047F352A88B3AAE /* Tag.swift */; };
+		EC5A0F78A3F62603AE0ED229 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E785AE8C68AB236FDE05F /* Stock.swift */; };
+		F07CAF6E6419A60B75E8904C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAAB058A5B2253A448941F9 /* Foundation.framework */; };
+		F69BF9807C1ED8E8E9D9C073 /* StockRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5CFFED673CD890D590A80 /* StockRow.swift */; };
+		FBBCA672379410F17DC4C529 /* StrategyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27764BE46AE328125FD3F663 /* StrategyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7100001 /* StockNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockNoteApp.swift; sourceTree = "<group>"; };
-		F7100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F7100003 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
-		F7100004 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		F7100005 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
-		F7100006 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
-		F7100007 /* EastMoneyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EastMoneyAPI.swift; sourceTree = "<group>"; };
-		F7100008 /* PriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceService.swift; sourceTree = "<group>"; };
-		F7100009 /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
-		F710000A /* StockRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRow.swift; sourceTree = "<group>"; };
-		F710000B /* AddStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockView.swift; sourceTree = "<group>"; };
-		F710000C /* TagManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerView.swift; sourceTree = "<group>"; };
-		F710000D /* StrategyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyView.swift; sourceTree = "<group>"; };
-		F710000E /* AddStrategyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyView.swift; sourceTree = "<group>"; };
-		F710000F /* AddDealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDealView.swift; sourceTree = "<group>"; };
-		F7100010 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		F7100011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7200001 /* StockNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27764BE46AE328125FD3F663 /* StrategyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StrategyView.swift; sourceTree = "<group>"; };
+		31CEDF4B346F58E1A834A44A /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479ADCB8E48D0C49A514B8CA /* EastMoneyAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EastMoneyAPI.swift; sourceTree = "<group>"; };
+		5A3346EA4E923029B1C38E66 /* Deal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		5DAAB058A5B2253A448941F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B73D77E047F352A88B3AAE /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		6ED6596C5CDBBDA9FC268EC8 /* WatchlistView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		743DC2359F6EB4A497922CB3 /* StockNoteApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StockNoteApp.swift; sourceTree = "<group>"; };
+		7DB550B1A1CB4B04CC752A43 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		86DE5F735CA7E84C8C27200B /* AddDealView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddDealView.swift; sourceTree = "<group>"; };
+		948D87245249E437F84FC218 /* PriceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PriceService.swift; sourceTree = "<group>"; };
+		9EE5CFFED673CD890D590A80 /* StockRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StockRow.swift; sourceTree = "<group>"; };
+		AC5BD0D51C1A05F4B1EF5C30 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5D4B56F31A0E8E266F83E74 /* StockNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5E785AE8C68AB236FDE05F /* Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		C55DB88CAC7D8C3414FF26D8 /* Strategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		D49C49B9E5B5ABDE3935F86D /* AddStockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddStockView.swift; sourceTree = "<group>"; };
+		DC20DD5CFFB70D81F68ADC9B /* TagManagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagManagerView.swift; sourceTree = "<group>"; };
+		EA5D5E01BD076D6DFDC8DDE2 /* AddStrategyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddStrategyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F7300001 /* Frameworks */ = {
+		071945DBDA2C6E91A95930AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07CAF6E6419A60B75E8904C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7400000 = {
+		02BA6A97DDB3787DEEDCA6F0 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				F7400001 /* StockNote */,
-				F7400002 /* Products */,
+				743DC2359F6EB4A497922CB3 /* StockNoteApp.swift */,
+				AC5BD0D51C1A05F4B1EF5C30 /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		17E354FC60E22A40164B23E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F59F87484B9981233FB1B90 /* Components */,
+				6ED6596C5CDBBDA9FC268EC8 /* WatchlistView.swift */,
+				D49C49B9E5B5ABDE3935F86D /* AddStockView.swift */,
+				DC20DD5CFFB70D81F68ADC9B /* TagManagerView.swift */,
+				27764BE46AE328125FD3F663 /* StrategyView.swift */,
+				EA5D5E01BD076D6DFDC8DDE2 /* AddStrategyView.swift */,
+				86DE5F735CA7E84C8C27200B /* AddDealView.swift */,
+				7DB550B1A1CB4B04CC752A43 /* SettingsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3236696470B5E9FB5E91151A = {
+			isa = PBXGroup;
+			children = (
+				5A8777EF9467594A752CCC28 /* Products */,
+				687F47F5384C64F9BCA4432F /* Frameworks */,
+				D2A7EAACE2136D719AD4ECD4 /* StockNote */,
 			);
 			sourceTree = "<group>";
 		};
-		F7400001 /* StockNote */ = {
+		54E7C470A2C96033E799151D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F7400003 /* App */,
-				F7400004 /* Models */,
-				F7400005 /* Views */,
-				F7400006 /* Services */,
-				F7400007 /* Resources */,
+				479ADCB8E48D0C49A514B8CA /* EastMoneyAPI.swift */,
+				948D87245249E437F84FC218 /* PriceService.swift */,
 			);
-			path = StockNote;
+			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		F7400002 /* Products */ = {
+		5A8777EF9467594A752CCC28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7200001 /* StockNote.app */,
+				B5D4B56F31A0E8E266F83E74 /* StockNote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7400003 /* App */ = {
+		687F47F5384C64F9BCA4432F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7100001 /* StockNoteApp.swift */,
-				F7100002 /* ContentView.swift */,
+				752F6B6889D1C2490FECAC0F /* iOS */,
 			);
-			path = App;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7400004 /* Models */ = {
+		752F6B6889D1C2490FECAC0F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F7100003 /* Stock.swift */,
-				F7100004 /* Tag.swift */,
-				F7100005 /* Strategy.swift */,
-				F7100006 /* Deal.swift */,
+				5DAAB058A5B2253A448941F9 /* Foundation.framework */,
 			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F59F87484B9981233FB1B90 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5CFFED673CD890D590A80 /* StockRow.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8FB3E26F734655A950061F71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E785AE8C68AB236FDE05F /* Stock.swift */,
+				66B73D77E047F352A88B3AAE /* Tag.swift */,
+				C55DB88CAC7D8C3414FF26D8 /* Strategy.swift */,
+				5A3346EA4E923029B1C38E66 /* Deal.swift */,
+			);
+			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F7400005 /* Views */ = {
+		D2A7EAACE2136D719AD4ECD4 /* StockNote */ = {
 			isa = PBXGroup;
 			children = (
-				F7100009 /* WatchlistView.swift */,
-				F710000B /* AddStockView.swift */,
-				F710000C /* TagManagerView.swift */,
-				F710000D /* StrategyView.swift */,
-				F710000E /* AddStrategyView.swift */,
-				F710000F /* AddDealView.swift */,
-				F7100010 /* SettingsView.swift */,
-				F7400008 /* Components */,
+				02BA6A97DDB3787DEEDCA6F0 /* App */,
+				8FB3E26F734655A950061F71 /* Models */,
+				17E354FC60E22A40164B23E7 /* Views */,
+				54E7C470A2C96033E799151D /* Services */,
+				D691D50CB87FC61D3EBD3A0F /* Resources */,
 			);
-			path = Views;
+			name = StockNote;
+			path = StockNote;
 			sourceTree = "<group>";
 		};
-		F7400006 /* Services */ = {
+		D691D50CB87FC61D3EBD3A0F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F7100007 /* EastMoneyAPI.swift */,
-				F7100008 /* PriceService.swift */,
+				31CEDF4B346F58E1A834A44A /* Assets.xcassets */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		F7400007 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F7100011 /* Assets.xcassets */,
-			);
+			name = Resources;
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		F7400008 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				F710000A /* StockRow.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7500001 /* StockNote */ = {
+		DCF7C269BD9EB82C901DB009 /* StockNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7600001 /* Build configuration list for PBXNativeTarget "StockNote" */;
+			buildConfigurationList = 2FFC27D43E2C911BCDE019B5 /* Build configuration list for PBXNativeTarget "StockNote" */;
 			buildPhases = (
-				F7500002 /* Sources */,
-				F7300001 /* Frameworks */,
-				F7500003 /* Resources */,
+				E794F2E113325B32D8FC8A3C /* Sources */,
+				071945DBDA2C6E91A95930AE /* Frameworks */,
+				F28363901123EA45654BC87D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -163,89 +190,84 @@
 			);
 			name = StockNote;
 			productName = StockNote;
-			productReference = F7200001 /* StockNote.app */;
+			productReference = B5D4B56F31A0E8E266F83E74 /* StockNote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F7700001 /* Project object */ = {
+		8CF927F9521C7782EFDAE8A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
-				TargetAttributes = {
-					F7500001 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-				};
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = F7600002 /* Build configuration list for PBXProject "StockNote" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 725A5A6EFAEE14E09BC64217 /* Build configuration list for PBXProject "StockNote" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
-			mainGroup = F7400000;
-			productRefGroup = F7400002 /* Products */;
+			mainGroup = 3236696470B5E9FB5E91151A;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A8777EF9467594A752CCC28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7500001 /* StockNote */,
+				DCF7C269BD9EB82C901DB009 /* StockNote */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F7500003 /* Resources */ = {
+		F28363901123EA45654BC87D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7000011 /* Assets.xcassets in Resources */,
+				C9AA224DCD5D6DDF072E0BAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F7500002 /* Sources */ = {
+		E794F2E113325B32D8FC8A3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7000001 /* StockNoteApp.swift in Sources */,
-				F7000002 /* ContentView.swift in Sources */,
-				F7000003 /* Stock.swift in Sources */,
-				F7000004 /* Tag.swift in Sources */,
-				F7000005 /* Strategy.swift in Sources */,
-				F7000006 /* Deal.swift in Sources */,
-				F7000007 /* EastMoneyAPI.swift in Sources */,
-				F7000008 /* PriceService.swift in Sources */,
-				F7000009 /* WatchlistView.swift in Sources */,
-				F700000A /* StockRow.swift in Sources */,
-				F700000B /* AddStockView.swift in Sources */,
-				F700000C /* TagManagerView.swift in Sources */,
-				F700000D /* StrategyView.swift in Sources */,
-				F700000E /* AddStrategyView.swift in Sources */,
-				F700000F /* AddDealView.swift in Sources */,
-				F7000010 /* SettingsView.swift in Sources */,
+				C0A3B1CC745DB827B012059E /* StockNoteApp.swift in Sources */,
+				0169FDA6A157BBB837F898F7 /* ContentView.swift in Sources */,
+				EC5A0F78A3F62603AE0ED229 /* Stock.swift in Sources */,
+				E91B37249145D21AD2ECEF60 /* Tag.swift in Sources */,
+				135CAD6E96745D5E76C7CA88 /* Strategy.swift in Sources */,
+				CEF86756D7A7561B8D3C56F7 /* Deal.swift in Sources */,
+				A498D7EA558BBEBE71251D1F /* WatchlistView.swift in Sources */,
+				40645E2CED04379AB9D517B9 /* AddStockView.swift in Sources */,
+				25C04DE8C063A9D7FA310AEE /* TagManagerView.swift in Sources */,
+				FBBCA672379410F17DC4C529 /* StrategyView.swift in Sources */,
+				9A1E134C91763BB779771381 /* AddStrategyView.swift in Sources */,
+				C27F355E40069EA626E7836A /* AddDealView.swift in Sources */,
+				6DA71095821982B80734C93C /* SettingsView.swift in Sources */,
+				F69BF9807C1ED8E8E9D9C073 /* StockRow.swift in Sources */,
+				9A0C7BF89D0413E738A685C4 /* EastMoneyAPI.swift in Sources */,
+				2D1C3537DC3255E41F8707D2 /* PriceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F7800001 /* Debug */ = {
+		62F1A65AE7C40DEEF4A992A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -275,8 +297,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -291,24 +312,53 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		F7800002 /* Release */ = {
+		7870AE2404C7BDA343793CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "股记";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linusp.stocknote;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E902DFFFC386EE802738E4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -338,8 +388,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -348,20 +397,22 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F7800003 /* Debug */ = {
+		95DE1FF122137BDABC18C225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -373,70 +424,39 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linusp.stocknote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F7800004 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "股记";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.linusp.stocknote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7600001 /* Build configuration list for PBXNativeTarget "StockNote" */ = {
+		2FFC27D43E2C911BCDE019B5 /* Build configuration list for PBXNativeTarget "StockNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7800003 /* Debug */,
-				F7800004 /* Release */,
+				7870AE2404C7BDA343793CC5 /* Release */,
+				95DE1FF122137BDABC18C225 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7600002 /* Build configuration list for PBXProject "StockNote" */ = {
+		725A5A6EFAEE14E09BC64217 /* Build configuration list for PBXProject "StockNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7800001 /* Debug */,
-				F7800002 /* Release */,
+				62F1A65AE7C40DEEF4A992A6 /* Debug */,
+				8E902DFFFC386EE802738E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F7700001 /* Project object */;
+	rootObject = 8CF927F9521C7782EFDAE8A2 /* Project object */;
 }
